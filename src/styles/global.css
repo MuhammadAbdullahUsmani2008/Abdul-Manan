@@ -84,6 +84,14 @@ input, textarea, select { font: inherit; }
   border-color: var(--color-forest);
   transform: translateY(-2px);
 }
+/* cream outline so these read as buttons over the dark/green hero,
+   and blend into the cream header when scrolled */
+.btn-light, .btn-hero-ghost {
+  border-color: var(--color-cream);
+}
+.btn-light:hover, .btn-hero-ghost:hover {
+  border-color: var(--color-cream);
+}
 
 .link-arrow {
   display: inline-flex;

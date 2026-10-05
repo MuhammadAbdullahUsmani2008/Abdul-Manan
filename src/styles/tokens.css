@@ -1,6 +1,8 @@
 :root {
   --color-obsidian: #111312;
   --color-ivory: #F5F2EA;
+  /* the translucent cream used for the scrolled header background + button outlines */
+  --color-cream: rgba(245, 242, 234, 0.88);
   --color-white: #FFFFFF;
   --color-forest: #163C32;
   --color-moss: #657B6B;

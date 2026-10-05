@@ -14,6 +14,7 @@ export default function Footer() {
   return (
     <footer style={{ background: 'var(--color-obsidian)', color: 'rgba(245,242,234,0.8)', paddingTop: '80px', paddingBottom: '30px' }}>
       <div className="container">
+        <img src="/logo.png" alt="" width="56" height="56" style={{ width: '56px', height: '56px', borderRadius: '50%', display: 'block', marginBottom: '26px' }} />
         <p style={{ fontSize: '0.72rem', letterSpacing: '0.3em', textTransform: 'uppercase', color: 'var(--color-clay)', fontWeight: 700, marginBottom: '18px' }}>Abdul Manan</p>
         <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: 'clamp(2.4rem, 5vw, 4rem)', color: 'var(--color-ivory)', lineHeight: 1.1, maxWidth: '700px' }}>
           Real stories. Real people. New beginnings.

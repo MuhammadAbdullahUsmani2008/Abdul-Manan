@@ -18,7 +18,6 @@ export default function ImagePlaceholder({ label = 'Photograph coming soon', asp
           <span className="image-placeholder__note">{label}</span>
         </>
       )}
-      {isHero && <span className="image-placeholder__note" aria-hidden="true">Documentary photography · coming soon</span>}
       <style>{`
         .image-placeholder {
           width: 100%;
