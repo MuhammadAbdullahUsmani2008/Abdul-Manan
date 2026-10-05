@@ -1,0 +1,54 @@
+:root {
+  --color-obsidian: #111312;
+  --color-ivory: #F5F2EA;
+  --color-white: #FFFFFF;
+  --color-forest: #163C32;
+  --color-moss: #657B6B;
+  --color-clay: #C96F4A;
+  --color-sand: #D9C8A7;
+  --color-muted-text: #777B76;
+  --color-border: #DCDDD7;
+
+  /* legacy aliases kept so existing components stay consistent */
+  --color-background: var(--color-ivory);
+  --color-surface: var(--color-white);
+  --color-surface-soft: #EDEBE3;
+  --color-primary: var(--color-forest);
+  --color-primary-dark: var(--color-obsidian);
+  --color-primary-light: var(--color-moss);
+  --color-soft-green: #E4EAE4;
+  --color-accent: var(--color-clay);
+  --color-accent-soft: #EFE0D6;
+  --color-text: var(--color-obsidian);
+  --color-text-secondary: var(--color-muted-text);
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Manrope', system-ui, -apple-system, sans-serif;
+
+  --text-hero: clamp(3rem, 8vw, 6.5rem);
+  --text-h1: clamp(2.4rem, 5vw, 4rem);
+  --text-h2: clamp(2rem, 3.6vw, 3rem);
+  --text-h3: clamp(1.4rem, 2.4vw, 1.9rem);
+  --text-large: clamp(1.05rem, 1.5vw, 1.2rem);
+  --text-body: 1.0625rem;
+  --text-small: 0.875rem;
+
+  --max-width: 1320px;
+  --pad-desktop: 40px;
+  --pad-tablet: 24px;
+  --pad-mobile: 18px;
+
+  --section-desktop: 120px;
+  --section-tablet: 90px;
+  --section-mobile: 70px;
+
+  --radius-card: 10px;
+  --radius-media: 12px;
+  --radius-input: 8px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 12px 32px rgba(17, 19, 18, 0.08);
+  --shadow-card: 0 4px 16px rgba(17, 19, 18, 0.05);
+
+  --transition: 240ms ease;
+}
